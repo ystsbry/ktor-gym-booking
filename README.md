@@ -12,4 +12,9 @@ cd ktor-gym-booking
 
 # Install a programming language with mise
 mise install
+
+# Start the server 
+cd server
+.\gradlew.bat build
+.\gradlew.bat run
 ```
